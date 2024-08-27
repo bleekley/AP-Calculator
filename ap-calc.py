@@ -21,8 +21,8 @@ def calculate_aps(total_area, floors, attenuation, corp_users, guest_users):
     # Calculate total bandwidth demand
     total_bandwidth = (corp_users * corp_bandwidth_per_user) + (guest_users * guest_bandwidth_per_user)
 
-    # Assume each AP can handle 100 Mbps of effective throughput
-    capacity_ap_count = total_bandwidth / 100
+    # Assume each AP can handle 500 Mbps of effective throughput
+    capacity_ap_count = total_bandwidth / 500
 
     # Return the higher of the two AP counts, rounded up to the nearest whole number
     return math.ceil(max(coverage_ap_count, capacity_ap_count))
