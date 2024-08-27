@@ -1,6 +1,6 @@
 # Wi-Fi Access Point (AP) Calculator
 
-This project is a **Wi-Fi Access Point Calculator** built with **Streamlit**. The calculator helps estimate the number of wireless access points (APs) required for a given environment based on factors such as square footage, number of floors, attenuation levels, and the number of corporate and guest users.
+This project is a **Wi-Fi Access Point Calculator**. Originally, VBS for labor calculator in MS Excel. Refactored for **Streamlit**. The calculator helps estimate the number of wireless access points (APs) required for a given environment based on factors such as square footage, number of floors, attenuation levels, and the number of corporate and guest users.
 
 ## Features
 - **Calculate APs based on coverage and capacity**.
